@@ -1,15 +1,15 @@
 #include <stdio.h>
 /**
- * main - This is program that prints the size of a various types of computer
- * return 0 (Successful)
+ * main - A program that prints the size of a various types of computer
+ * Return 0 (Successful)
  */
 int main(void)
 {
-char q;
-int w;
-long int e;
-long long int r;
-float t;
+	char q;
+	int w;
+	long int e;
+	long long int r;
+	float t;
 
 printf("Size of a char: %lu byte(s)\n", (unsigned long)sizeof(q));
 printf("Size of a int: %lu byte(s)\n", (unsigned long)sizeof(w));
