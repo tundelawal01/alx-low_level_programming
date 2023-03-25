@@ -5,9 +5,8 @@
  *
  * @i: the function of parameters
  *
- * return: k
+ * Return: k
  */
-
 int print_last_digit(int i)
 {
 	int k;
